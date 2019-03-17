@@ -1,0 +1,9 @@
+project_id = "trans-crawler-234218"
+region = "europe-west3"
+
+name = "my-cluster"
+description = "Test cluster to showcase CI/CD with k8s, Gitlab CI, and Helm"
+zone = "europe-west3-c"
+initial_node_count = 1 # number of nodes in the cluster
+
+ntw_name = "my-cluster-network" # VPC network name which will be created
